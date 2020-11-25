@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Swiper from 'swiper';
 
-import './HomeHeader.scss';
+import './HomeHeader.css';
 
 class HomeHeader extends Component {
 

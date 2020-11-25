@@ -16,7 +16,7 @@ import getMoviesRated from '../../actions/movieActions/getMoviesRated';
 import getTVRated from '../../actions/TVActions/getTVRated';
 
 import profileAvatar from './images/profile-avatar.jpeg';
-import './UserProfile.scss';
+import './UserProfile.css';
 
 class UserProfile extends Component {
 

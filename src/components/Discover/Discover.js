@@ -7,7 +7,7 @@ import getDiscover from '../../actions/getDiscover';
 import MainNav from '../MainNav/MainNav';
 import Loader from '../Loader/Loader';
 
-import './Discover.scss';
+import './Discover.css';
 
 class Discover extends Component {
 

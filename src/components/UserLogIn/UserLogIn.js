@@ -7,7 +7,7 @@ import getRequestToken from '../../actions/authenticationActions/getRequestToken
 import getGuestSession from '../../actions/authenticationActions/getGuestSession';
 
 import logo from '../../images/logo.png';
-import './UserLogIn.scss';
+import './UserLogIn.css';
 
 class UserLogIn extends Component {
 

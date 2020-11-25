@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import rateMovie from '../../actions/movieActions/rateMovie';
 
-import './StarRating.scss';
+import './StarRating.css';
 
 class StartRating extends Component {
 

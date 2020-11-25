@@ -20,7 +20,7 @@ import ItemCarousel from '../ItemCarousel/ItemCarousel';
 import MainFooter from '../MainFooter/MainFooter';
 import Loader from '../Loader/Loader';
 
-import './Home.scss';
+import './Home.css';
 
 class Home extends Component {
 

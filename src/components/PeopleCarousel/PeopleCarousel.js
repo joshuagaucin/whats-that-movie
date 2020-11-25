@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom';
 
 import Swiper from 'swiper';
 import backup from './images/backup.jpg';
-import './PeopleCarousel.scss'
+import './PeopleCarousel.css'
 
 
 class PeopleCarousel extends Component {

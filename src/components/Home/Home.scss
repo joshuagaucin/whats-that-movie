@@ -15,10 +15,10 @@
     &__switch {
       background: none;
       border: none;
-      background-image: linear-gradient(90deg, rgba(255,86,132,.4) 0%, rgba(83,50,201,.4) 68%),linear-gradient(90deg, rgba(255,86,132,.4) 0%, rgba(83,50,201,.4) 68%);
+      background-image: linear-gradient(90deg, rgba(86, 255, 151, 0.4) 0%, rgba(15, 11, 26, 0.4) 68%),linear-gradient(90deg, rgba(86, 255, 156, 0.4) 0%, rgba(15, 12, 26, 0.4) 68%);
       border-image-slice: 1;
-      border-left: 3px solid rgba(255,86,132,.4);
-      border-right: 3px solid rgba(83,50,201,.4);
+      border-left: 3px solid rgba(86, 255, 170, 0.4);
+      border-right: 3px solid rgba(15, 12, 26, 0.4);
       border-radius: 10px;
       background-position: 0 0, 0 100%;
       background-repeat: no-repeat;

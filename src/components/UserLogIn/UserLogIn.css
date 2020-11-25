@@ -1,0 +1,111 @@
+.user-log-in {
+  font-family: "Alegreya Sans", sans-serif;
+  height: 100vh;
+}
+
+.user-log-in-container-header {
+  background: linear-gradient(165deg, #251431 0%, #161130 22%);
+  color: #fff;
+  letter-spacing: .2rem;
+  font-size: 1.3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.user-log-in-container-header__logo {
+  height: auto;
+  margin-bottom: 2rem;
+  width: 120px;
+}
+
+.user-log-in-container-header__title {
+  margin: 0;
+}
+
+.user-log-in-container-header__name {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: .7rem;
+  margin: .5rem 0 0;
+  text-transform: uppercase;
+}
+
+.user-log-in-container-content__button {
+  background-color: #EB4E7A;
+  border: 3px solid #EB4E7A;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5rem auto;
+  outline: none;
+  padding: 1rem;
+  -webkit-transition: background-color .2s, color .2s, border-color .2s;
+  transition: background-color .2s, color .2s, border-color .2s;
+  width: 220px;
+}
+
+.user-log-in-container-content__button:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #EB4E7A;
+  -webkit-transition: background-color .2s, color .2s, border-color .2s;
+  transition: background-color .2s, color .2s, border-color .2s;
+}
+
+.user-log-in-container-content__warning {
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: -2rem;
+  text-align: center;
+}
+
+.user-log-in-container-content a,
+.user-log-in-container-content a:active,
+.user-log-in-container-content a:hover,
+.user-log-in-container-content a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.user-log-in-side-image {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))) no-repeat center center, #EB4E7A url("images/side-image.jpeg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) no-repeat center center, #EB4E7A url("images/side-image.jpeg") no-repeat center center;
+  background-size: cover;
+  border-left: 10px solid #EB4E7A;
+  display: none;
+}
+
+.user-log-in-side-image__title {
+  color: #fff;
+  font: bold 52px "Alegreya Sans", sans-serif;
+  margin: 37vh auto 0;
+  text-align: center;
+  text-shadow: 1px 1px #EB4E7A, 2px 2px #EB4E7A, 3px 3px #EB4E7A;
+  text-transform: uppercase;
+  -webkit-transition: all 0.12s ease-out;
+  transition: all 0.12s ease-out;
+  width: 80%;
+}
+
+.user-log-in-side-image__title:hover {
+  left: -3px;
+  position: relative;
+  text-shadow: 1px 1px #EB4E7A, 2px 2px #EB4E7A, 3px 3px #EB4E7A, 4px 4px #EB4E7A, 5px 5px #EB4E7A, 6px 6px #EB4E7A;
+  top: -3px;
+}
+
+@media only screen and (min-width: 900px) {
+  .user-log-in {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .user-log-in-side-image {
+    display: block;
+    height: 100vh;
+    width: auto;
+  }
+}
+/*# sourceMappingURL=UserLogIn.css.map */

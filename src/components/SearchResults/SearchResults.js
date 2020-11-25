@@ -18,7 +18,7 @@ import searchData from '../../actions/searchData';
 import postSearchResults from '../../actions/postSearchResults';
 import MainNav from '../MainNav/MainNav';
 
-import './SearchResults.scss';
+import './SearchResults.css';
 
 class SearchResults extends Component {
 
